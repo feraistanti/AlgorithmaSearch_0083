@@ -61,3 +61,8 @@ Void LinearSearch()
 
 	} while ((ch == 'y') || (ch == 'Y'));
 }
+
+void display() 
+{
+
+}
