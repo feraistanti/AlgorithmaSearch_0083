@@ -27,3 +27,10 @@ void input()
 		cin >> arr[i];
 	}
 }
+
+Void LinearSearch() 
+{
+	char ch;
+	int ctr;
+	int item;
+}
