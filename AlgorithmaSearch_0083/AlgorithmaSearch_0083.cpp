@@ -34,14 +34,14 @@ Void LinearSearch()
 	int ctr;
 	int item;
 
-	do 
+	do
 	{
 		cout << "\nEnter the element you want to search: ";
 		cin >> item;
 
 		ctr = 0;
 		i = 0;
-		while (i < n) 
+		while (i < n)
 		{
 			ctr++;
 			if (arr[i] == item)
@@ -51,5 +51,9 @@ Void LinearSearch()
 			}
 			i++;
 		}
+
+		if (i == n)
+			cout << "\n" << " not found in the array\n";
+		cout << "\nNumber of comparisions: " << ctr << endl;
 	}
 }
